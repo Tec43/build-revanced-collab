@@ -59,6 +59,6 @@ in this case we will write:-
 
 
 
-### Select between Youtube and Youtube Music.
-**If you want to patch the youtube app, write "youtube" in what_to_patch="youtube"**
-**if you want to patch youtube music app. write "youtube-music in what_to_patch="youtube_music"**
+## Select between Youtube and Youtube Music.
+### if you want to patch the youtube app, write "youtube" in what_to_patch="youtube"
+### if you want to patch youtube music app. write "youtube-music in what_to_patch="youtube_music"
