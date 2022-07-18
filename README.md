@@ -47,4 +47,8 @@ Allows to build revanced on Google Collab, with option to include and exclude pa
 # How to include or exclude patches?
 **We can include patches using -i patch_name in the additional_args.**
 so if i want to include auto hdr brightness patch, we will write:-
-`!additional_args="**-i auto-hdr-brightness**" what_to_patch="youtube" sh -c "$(curl https://raw.githubusercontent.com/XDream8/revanced-creator/main/patch.sh)"`
+```!additional_args="-i auto-hdr-brightness" what_to_patch="youtube" sh -c "$(curl https://raw.githubusercontent.com/XDream8/revanced-creator/main/patch.sh)"```
+
+**Similarly, we can exclude patches by using -e in the additional_args.**
+so if we want to remove amoled patch, we will write :-
+```!additional_args="-e amoled" what_to_patch="youtube" sh -c "$(curl https://raw.githubusercontent.com/XDream8/revanced-creator/main/patch.sh)"```
