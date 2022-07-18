@@ -50,5 +50,9 @@ so if i want to include auto hdr brightness patch, we will write:-
 ```!additional_args="-i auto-hdr-brightness" what_to_patch="youtube" sh -c "$(curl https://raw.githubusercontent.com/XDream8/revanced-creator/main/patch.sh)"```
 
 **Similarly, we can exclude patches by using -e in the additional_args.**
-so if we want to remove amoled patch, we will write :-
+so if we want to remove amoled patch, we will write:-
 ```!additional_args="-e amoled" what_to_patch="youtube" sh -c "$(curl https://raw.githubusercontent.com/XDream8/revanced-creator/main/patch.sh)"```
+
+**How to add and exclude one, or multiple patches?**
+in this case we will write:-
+```!additional_args="" what_to_patch="youtube" sh -c "$(curl https://raw.githubusercontent.com/XDream8/revanced-creator/main/patch.sh)"```
