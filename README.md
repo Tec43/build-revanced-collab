@@ -40,3 +40,11 @@ Allows to build revanced on Google Collab, with option to include and exclude pa
 - upgrade-button-remover
 - tasteBuilder-remover
 ```
+>Note: The main command whoch you need to edit is 
+`!additional_args="" what_to_patch="youtube" sh -c "$(curl https://raw.githubusercontent.com/XDream8/revanced-creator/main/patch.sh)"`
+>The commands present above is to install java and to download apk,patches,cli etc.
+
+# How to include or exclude patches?
+**We can include patches using -i patch_name in the additional_args.**
+so if i want to include auto hdr brightness patch, we will write:-
+`!additional_args="**-i auto-hdr-brightness**" what_to_patch="youtube" sh -c "$(curl https://raw.githubusercontent.com/XDream8/revanced-creator/main/patch.sh)"`
