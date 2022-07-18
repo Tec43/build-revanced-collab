@@ -1,4 +1,5 @@
 # build-revanced-collab
+## Patches for youtube app
 Allows to build revanced on Google Collab, with option to include and exclude patches! 
 **Patches which are enabled by default:-**
 >(exclude)
@@ -29,3 +30,6 @@ Allows to build revanced on Google Collab, with option to include and exclude pa
 - old-quality-layout(Incompatible with latest versions)
 - enable-wide-searchbar
 ```
+
+## Patches for youtube music app
+
