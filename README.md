@@ -1,7 +1,8 @@
 # build-revanced-collab
 Allows to build revanced on Google Collab, with option to include and exclude patches! 
-patches which are enabled by default:-
+##patches which are enabled by default:-
 (exclude)
+```
 hide-infocard-suggestions
 video-ads
 general-ads
@@ -17,3 +18,4 @@ premium-heading
 return-yiutube-dislikes
 custom-branding
 disable-fullscreen-panels
+```
