@@ -32,4 +32,11 @@ Allows to build revanced on Google Collab, with option to include and exclude pa
 ```
 
 ## Patches for youtube music app
-
+```
+- music-video-ads
+- exclusive-audio-playback
+- codecs-unlock
+- background-play
+- upgrade-button-remover
+- tasteBuilder-remover
+```
