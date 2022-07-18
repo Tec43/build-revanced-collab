@@ -19,3 +19,13 @@ return-yiutube-dislikes
 custom-branding
 disable-fullscreen-panels
 ```
+
+**Pathces which need to specified :-**
+>(include)
+```
+hdr-auto-brightness
+autorepeat-by-default
+enable-debugging
+old-quality-layout(Incompatible with latest versions)
+enable-wide-searchbar
+```
