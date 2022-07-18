@@ -1,6 +1,7 @@
 # build-revanced-collab
+Allows to build revanced on Google Collab, with option to include and exclude patches!
 ## Patches for youtube app
-Allows to build revanced on Google Collab, with option to include and exclude patches! 
+ 
 **Patches which are enabled by default:-**
 >(exclude)
 ```
